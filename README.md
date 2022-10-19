@@ -27,3 +27,23 @@
  * rm：刪除檔案
  * rm -r：強制刪除
  * mv：移動，重新命名
+---  
+**Linux指令-壓縮檔案**
+ * gzip
+  * 壓縮：gzip FileName
+  * 解壓縮：gunzip FileName.gz/gzip -d FileName.gz
+ * xz
+  * 壓縮：xz -z FileName
+  * 解壓縮：xz -d FileName.xz
+ * tar.gz
+  * 壓縮：tar -zcvf FileName.tar.gz DirName
+  * 解壓縮：tar -zxvf FileName.tar.gz
+  ---  
+**Linux指令-檔案搜尋**
+ * find 
+  * -size EX：找出大於500M的檔案→ -size +500M
+  * -name EX：找出為照片的檔案→ -name "*.jpg"
+  * -type EX：-type f→ 一般檔案;  -type d→ 一般目錄
+  * -user EX：同時找兩個擁有者的檔案→-user user1 -o -user user2
+ * find 
+ 
