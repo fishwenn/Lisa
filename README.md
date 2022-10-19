@@ -30,8 +30,8 @@
 ---  
 **Linux指令-壓縮檔案**
  * gzip
-  * 壓縮：gzip FileName
-  * 解壓縮：gunzip FileName.gz/gzip -d FileName.gz
+   * 壓縮：gzip FileName
+   * 解壓縮：gunzip FileName.gz/gzip -d FileName.gz
  * xz
   * 壓縮：xz -z FileName
   * 解壓縮：xz -d FileName.xz
